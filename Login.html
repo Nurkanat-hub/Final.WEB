@@ -1,0 +1,47 @@
+<!--Login.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f9fa;
+        }
+        .form-login {
+            max-width: 360px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main class="form-login w-100 m-auto">
+        <form>
+            <h1 class="h3 mb-3 fw-normal text-center">Log in</h1>
+            
+            <div class="form-floating mb-2">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Email address</label>
+            </div>
+            
+            <div class="form-floating mb-2">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+              <label for="floatingPassword">Password</label>
+            </div>
+            
+            <button class="btn btn-primary w-100 py-2" type="submit">Log in</button>
+
+            <p class="mt-5 mb-3 text-center text-body-secondary">© 2017–2024</p>
+        </form>
+    </main>
+    <form action="login.php" method="POST">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

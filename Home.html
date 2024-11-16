@@ -1,0 +1,193 @@
+<!--Home.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        
+.fullscreen .col-md-6 {
+    margin-top: -2rem; 
+  }
+  .fullscreen {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url('https://tengritravel.kz/userdata/news/2020/news_415512/thumb_b/photo_336934.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+  }
+  .fullscreen-carousel {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    height: 100vh;
+  }
+  
+  .carousel-item svg.bd-placeholder-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+    </style>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Never expand</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Signin.html">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Login.html">Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Profile.html">Profile</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+    </nav>
+<!--KazDiscover-->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary fullscreen">
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+            <h1 class="display-3 fw-bold">KazDiscover</h1>
+            <h3 class="fw-normal text-muted mb-3">Visit your dreams with us</h3>
+            <div class="d-flex gap-3 justify-content-center lead fw-normal">
+                <a class="icon-link" href="#myCarousel">
+                    Learn more
+                    <i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+<!--Carousel-->
+      <div id="myCarousel" class="carousel slide mb-6 fullscreen-carousel" data-bs-ride="carousel" data-bs-theme="light">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <!--Alakol-->
+        <div class="carousel-inner">
+            <div class="carousel-item" style="background-image: url('https://tr-kazakhstan.kz/wp-includes/2023/12/lake-alakol-2.jpg'); background-size: cover; background-position: center; height: 100vh;">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Alakol</h1>
+                        <p class="opacity-75">Alakol Lake, located between Kazakhstan and China, offers stunning views with its turquoise waters and surrounding mountains. It’s a peaceful escape for relaxation, hiking, and nature exploration. A hidden gem for adventure seekers and nature lovers!.</p>
+                        <p><a class="btn btn-lg btn-primary" href="Alakol.html">learn more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Katon-->
+        <div class="carousel-item active carousel-item-start" style="background-image: url('https://www.greendestinations.org/wp-content/uploads/2023/10/Top-100-2023-Katon-Karagai-%E2%80%93-KZ.png.webp'); background-size: cover; background-position: center; height: 100vh;">
+            <div class="container">
+                 <div class="carousel-caption">
+                    <h1>Katon-Karagay</h1>
+                    <p>Katon-Karagay, located in Kazakhstan's Eastern Altai Mountains, is a paradise for nature lovers. With its lush forests, crystal-clear lakes, and majestic peaks, it's ideal for hiking, camping, and wildlife watching. A perfect escape for outdoor adventures!.</p>
+                    <p><a class="btn btn-lg btn-primary" href="Katon.html">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!--Mangistau-->
+        <div class="carousel-item carousel-item-next carousel-item-start" style="background-image: url('https://turanasia.kz/wp-content/uploads/mg_3707.jpg'); background-size: cover; background-position: center; height: 100vh; background-color: #333;">
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Mangistau</h1>
+                    <p>Mangistau, a breathtaking region in western Kazakhstan, is known for its unique desert landscapes, towering cliffs, and ancient rock formations. It’s a haven for explorers, with stunning natural wonders like the Ustyurt Plateau and the Boszhira Valley, offering an unforgettable experience of Kazakhstan’s raw beauty.</p>
+                    <p><a class="btn btn-lg btn-primary" href="Mangistau.html">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--Burabau-->
+        <div class="carousel-item" style="background-image: url('https://tengritravel.kz/userdata/news/2018/news_346441/thumb_b/photo_251805.jpg'); background-size: cover; background-position: center; height: 100vh;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Burabai</h1>
+                    <p>Burabai, often called the "Kazakhstan's Swiss Alps," is a picturesque resort area located in the northern part of the country. Surrounded by lush forests and crystal-clear lakes, it's a perfect destination for outdoor activities like hiking, boating, and camping, offering breathtaking views and a peaceful retreat in nature.</p>
+                    <p><a class="btn btn-lg btn-primary" href="Burabay.html">learn more</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!--Kolsai-->
+        <div class="carousel-item" style="background-image: url('https://www.welovealmaty.com/packages/package_files/package11560939973.jpg'); background-size: cover; background-position: center; height: 100vh;">
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Kolsay Lakes</h1>
+                    <p>Kolsai Lakes, nestled in Kazakhstan’s Zailiyskiy Alatau mountains, are a series of stunning alpine lakes surrounded by lush forests and towering peaks. Known for their crystal-clear waters and scenic hiking trails, Kolsai offers a perfect spot for nature lovers, trekking, and camping, making it a must-visit destination for adventure and tranquility.</p>
+                    <p><a class="btn btn-lg btn-primary" href="Kolsai.html">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Profile</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        </footer>
+      </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
